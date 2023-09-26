@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: 'PT Serif', serif;
+}
+
+.container.fluid {max-width: 100%;}
+
+header {
+    height: 0px;
+    } 
+nav {
+    background-color: rgb(156, 16, 110);
+    display: flex;
+    height: 80px;
+    align-items: center;
+    width: 100%;
+    ul {display: flex;
+        .li-nav1 {
+            list-style: none;
+            font-size: 1.5rem;
+            margin: 12px;
+            a {
+                color: rgb(34, 21, 4);
+                text-decoration: none;
+                }
+        }
+    }
+
+}
+@media (min-width:1200px) {
+    nav {height: 80px;
+        width: 100%;
+    }
+}
+
+@media (min-width:1200px) {
+    .li-nav1 {
+        font-size: 2rem;
+        margin: 70px;
+    }
+}
+.li-nav1:hover {
+    background-color: violet;
+}
+
+main{
+    background-image: url(https://i.pinimg.com/originals/b8/28/fb/b828fbbf7739cbd346f4e39c6d5f2e86.jpg);
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    margin-top:80px;
+    color: silver;
+    font-size: 5rem;
+    text-decoration: underline;
+}
+
+h2 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    color: silver;
+}
+
+.carousel-inner {
+    height: 450px;
+    width: 414px;
+}
+
+@media (min-width:1200px) {
+    .carousel-inner {
+        width: 500px;
+        height: 500px;
+        margin-left: 400px;
+    }
+}
+
+h5 {
+    color: rgb(35, 180, 16);
+}
+
+.p-h5 {
+    color: #165a19;
+}
+.poema {
+    margin-top: 70px;
+}
+
+.poema-lovecraft {
+    justify-content: center;
+    
+    }
+    @media (min-width:1200px) {
+        .poema-lovecraft {
+        
+        }
+    }
+.miedo {
+    font-size: 1.5rem;
+    text-align: center;
+    color: silver;
+}
+@media (min-width:1200px) {
+    .miedo {
+        font-size: 2rem;
+        
+        width: 100%;
+    }
+}
+.div-escritores {
+   display: none;
+}
+@media (min-width:1200px) {
+    .div-escritores{
+        display: flex;
+        margin-left: 420px;
+        margin-top: 30px;
+    }
+}
+h3 {
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    color: silver;
+}
+.escritores {
+    display: block;
+    margin-left: 75px;
+    
+}
+@media (min-width:1200px) {
+    .escritores {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+.horror{ 
+    display: block;
+    color: silver;
+    font-size: 2rem;
+    margin-left: 70px;
+}
+
+.cuervi {
+    margin-bottom: 50px;
+    height: 250px;
+    border-radius: 30px;
+}
+.paya {
+    height: 300px;
+    margin-bottom: 50px;
+    border-radius: 50px;
+    }
+.pulpi {
+    margin-bottom: 40px;
+    border-radius: 50px;
+}
+.agonia {
+    height: 250px;
+}
+.susto {
+    margin-left: 105px;
+    height: 110px;
+    width: 50%;
+    border: 5px solid gray;
+    background-color:  rgb(13, 96, 47);
+    border-radius: 40px;
+}
+@media (min-width:1200px) {
+    .susto {
+        width: 30%;
+        height: 80px;
+        margin-left: 470px;
+    }
+}
+.suscribe {
+    font-size: 1.5rem;
+    color: silver;
+    text-align: center;
+    margin-top: 15px;
+}
+.correo{
+    margin-top: 40px;
+}
+@media (min-width: 1200px) {
+    .correo {height: 35px;
+            margin-left: 100px;
+            width: 180px;
+    }
+}
+
+.enviar {
+    height: 45px;
+    width: 80px;
+    margin-bottom: 25px;
+    margin-left: 60px;
+}
+@media (min-width:1200px) {
+    .enviar {
+        width: 30%;
+        margin-left: 130px;
+        height: 45px;
+    }
+}
+.pie {
+    height: 200px;
+    background-image: url(https://th.bing.com/th/id/R.9c640752554e4a736160aed684d0160e?rik=QhuiJvkmhaCL0g&riu=http%3a%2f%2fstatic8.depositphotos.com%2f1516135%2f982%2fi%2f950%2fdepositphotos_9828784-stock-photo-earthy-background-texture.jpg&ehk=5lu%2fr%2f1%2fEnJN1Nxxv3CyBaZr5oHrbgE6NIXmclER5xg%3d&risl=&pid=ImgRaw&r=0);
+    background-size: cover;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 50px;
+    bottom: 80px;
+    }
+.p-pie {
+    font-size: 1.5rem;
+    }

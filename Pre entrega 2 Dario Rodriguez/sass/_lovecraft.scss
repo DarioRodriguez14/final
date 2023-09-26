@@ -1,0 +1,89 @@
+.container.fluid {max-width: 100%;}
+
+    .header1 {
+        height: 0px;
+        } 
+    .nav1 {
+        background-color: rgb(156, 16, 110);
+        display: flex;
+        height: 80px;
+        align-items: center;
+        width: 100%;
+    
+    }
+    @media (min-width:1200px) {
+        .nav1 {height: 80px;
+            width: 100%;
+        }
+    }
+    .ul1 {
+       display: flex;
+    }
+    
+    .li1 {
+        list-style: none;
+        font-size: 1.5rem;
+        margin: 12px;
+    }
+    @media (min-width:1200px) {
+        .li1 {
+            font-size: 2rem;
+            margin: 70px;
+        }
+    }
+    .li1:hover {
+        background-color: violet;
+    }
+    .a1 {
+        color: rgb(34, 21, 4);
+        text-decoration: none;
+        }
+    
+    .main1{
+        background-image: url(https://i.pinimg.com/originals/b8/28/fb/b828fbbf7739cbd346f4e39c6d5f2e86.jpg);
+        background-size: cover;
+    }
+
+h1-1{
+    text-align: center;
+    margin-top:80px;
+    color: silver;
+    font-size: 5rem;
+    text-decoration: underline;
+}
+.reme1 {
+    height: 383px;
+    width: 400px;
+    display: flex;
+    margin-top: 20px;
+}
+
+.reme2 {
+    height: 300px;
+    width: 300px;
+    display:flex;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.remeras {
+    display: flex;
+}
+
+@media (min-width:1200px) {
+    .remeras {
+        display: block;
+    }
+}
+.pie {
+    height: 200px;
+    background-image: url(https://th.bing.com/th/id/R.9c640752554e4a736160aed684d0160e?rik=QhuiJvkmhaCL0g&riu=http%3a%2f%2fstatic8.depositphotos.com%2f1516135%2f982%2fi%2f950%2fdepositphotos_9828784-stock-photo-earthy-background-texture.jpg&ehk=5lu%2fr%2f1%2fEnJN1Nxxv3CyBaZr5oHrbgE6NIXmclER5xg%3d&risl=&pid=ImgRaw&r=0);
+    background-size: cover;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 50px;
+    bottom: 80px;
+    }
+    .p-pie {
+        font-size: 1.5rem;
+    }
+    
